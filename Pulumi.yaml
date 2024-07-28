@@ -1,0 +1,7 @@
+name: pulumi-docker-vps
+runtime: go
+description: Deploy a Docker VPS on DigitalOcean
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: go
